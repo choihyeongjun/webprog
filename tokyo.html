@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav class="p1">
+    <ul>
+      <li><a href="layout.html">London</a></li>
+      <li><a href="paris.html">Paris</a></li>
+      <li><a href="tokyo.html">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article class="p1">
+    <form action="tokyo.jsp" method="GET">
+        <fieldset>
+            <legend>개인정보입력</legend>
+            <p>아이디: <input type="text" name="name"></p>
+            <p>생년월일: <input type="text" name="birth"></p>
+            <input type="radio" name="sex" value="male">남자
+            <input type="radio" name="sex" value="female">여자
+            <p>E-mail: <input type="text" name="email"></p>
+            <p>메일수신:<input type="radio" name="m" value="mail">수신동의
+            <input type="radio" name="m" value="nonmail">수신거부<br/></p>
+            <label>핸드폰:
+            <p><select name="phonenum">
+                <option value="1" selected>010</option>
+                <option value="2">011</option>
+                <option value="3">016</option>
+                <input type="text" name="num1">
+            -<input type="text" name="num2"></p>
+            <label>직업:
+                <select name="job">
+                    <option value="1" selected>학생</option>
+                    <option value="2">선생님</option>
+                    <option value="3">군인</option>
+
+             <p>취미:<input type="checkbox" name="hobby" value="1">쇼핑
+                <input type="checkbox" name="hobby" value="2">인터넷
+                <input type="checkbox" name="hobby" value="3">음악감상
+                <input type="checkbox" name="hobby" value="4">독서
+                <input type="checkbox" name="hobby" value="5">스포츠
+             </p>
+
+             자기 소개:
+             <textarea rows="5" cols="50" type="text" name="area">
+                </textarea>
+                <p></p>
+                <input type="submit" value="전송"><br>
+                <input type="reset" value="취소"><br>
+        </fieldset>
+    </form>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>국비지원 학원</h1>
+  <p>고민을 털어내보자</p>
+</div>
+
+<div class="topnav">
+  <a href="navigator.html">대구</a>
+  <a href="main1.html">서울</a>
+  <a href="main2.html">그외 지역</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>대구 지역1</h2>
+      <h5>취업상담, Nov 18, 2020</h5>
+      <div  class="fakeimg" style="height:200px;" ><a href="http://daeguoracle.com/SUB/?ctId=54"><img src="캡처.JPG" width=100% height=120%></a></div>
+      
+      <p>예담직업전문학교</p>
+      <p>교육은 작게는 한 개인을 가르치는 것이지만 크게는 나라의 미래를 좌우할 만큼 큰 사업입니다.
+
+        백 년 앞을 내다봐야 하는 큰 계획이라는 ‘백년지대계’라는 말처럼
+     
+        좋은 교육은 하루아침에 만들어지는 것이 아니라 비전 있는 목표를 갖고 꾸준하게 진행해야 합니다.
+     
+      
+     
+        IT 전문 교육기관인 예담은 
+     
+        교육을 통해 사람이 길러지고,
+     
+        그 사람이 행복해지며, 
+     
+        나아가 사회와 국가가 행복해지는 교육시스템을 만들겠다
+     
+        는 뚜렷한 의지가 있습니다.
+     
+      
+     
+        예담이 지향하는 교육시스템의 발전 방향은 다음의 세 가지 키워드로 요약됩니다.
+     
+      
+     
+        Passion 열정입니다
+     
+         -> 열정이 있는 사람은 매사에 자신감이 넘치고 긍정적인 자세로 믿음을 줍니다. 
+     
+             예담은 어느 분야에서든 모든 사람에게 신뢰받는 '열정을 가진 인재'를 만들어 가고 있습니다.
+     
+      
+     
+        People 배려입니다
+     
+         -> 협업을 통해 효과적인 업무를 진행할 수 있는 원동력은 팀원간의 끈끈한 팀워크입니다. 
+     
+             예담의 교육생들은 서로 격려하고, 용기를 북돋아 주며, 때로는 잘못된 점들을 단호하게 고쳐줄 수 있는
+     
+             '배려'를 통해 팀워크를 쌓아가는 법을 배웁니다.
+     
+        Think 창의력입니다
+     
+         -> 현재와 같은 무한경쟁 시대는 '창의력을 지닌 인재'가 필요합니다. 
+     
+             예담의 교육과정은 자신이 갖춘 능력을 발견하고, 
+     
+             체계적인 관리와 동기부여를 통해 그 능력을 특화할 수 있도록 안내합니다.
+     
+      
+     
+        예담은 IT 교육분야에서부터 혁신을 주도하여 새로운 IT 인재들의 잠재적인 역량을 극대화 할 수 있는 
+     
+        토양을 만들고 싶습니다. 특히 기술의 발전과 세계의 흐름에 민감한 IT 교육의 특성상 
+     
+        끊임없는 연구와 변화를 통해 그 범위를 넓혀 인류발전에 기여하는 세계적인 지식 교육기업으로 
+     
+        나아갈 수 있도록 최선의 노력을 다하겠습니다.</p>
+        
+    </div>
+
+    <div class="card">
+      <h2>대구지역2</h2>
+      <h5>취업상담2,  Nov 19, 2020</h5>
+      <div class="fakeimg" style="height:200px;"><a href="http://www.gukbi.com/Academy/View.asp?idx=2428&category="><img img src="캡처1.JPG" width=100% height=120% ></a></div>
+      <p>미래네트워크 학원</p>
+      <p>대구 반월당 현대백화점 맞은편에 위치하고 있으며, 19년동안 PC & Network H/W 분야인 PC 정비사, CISCO사의 CCNA, CCNP 과정을 전문적으로 강의하는 학원으로서 네트워크 분야의 전문엔지니어 양성을 위해 최선을 노력을 다하고 있습니다. 직장인을 위한 재직자 환급과정과 실직자 및 대학졸업자(예정자)를 위한 내일 배움카드제 과정이 개설되어 있어서 경제적인 부담없이 수강하실 수가 있습니다. 아울러 Pearson Vue 국제공인시험장도 운영하고 있습니다. 많은 관심 부탁드립니다. 국가기간전략산업직종 전액무료 과정인 시스코네티워크전문가엔지니어 과정을 운영 훈련생 모집을 하고 있습니다~^^
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>쉬어가는 time</h2>
+      <div class="fakeimg" style="height:300px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/c_5npeVTkIQ" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+         gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <p>귀엽지?? ^^</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><img src="나.jpg" width="100%" height="100%"><p></p></div>
+      <div class="fakeimg">일등 신랑감<p></p></div>
+      
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>다드루와~</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
